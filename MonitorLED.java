@@ -7,6 +7,13 @@ public class MonitorLED {
   private String tipo;
   private boolean vacio = true;
 
+    public MonitorLED (String mo, int p, String re, String ma, String ti) {
+    this.modelo = mo;
+    this.precio = p;
+    this.resolucion = re;
+    this.marca = ma;
+    this.tipo = ti;
+    }
     public String getModelo() {
         return modelo;
     }
